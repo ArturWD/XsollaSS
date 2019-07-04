@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => (
     <footer className="footer">
         <div className="container">
-            <h5>You can find this project on </h5> <a className="project-link link" href="https://github.com/ArturWD/Xsolla-Summer-School"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
+            <h5>You can find this project on </h5> <a className="project-link link" href="https://github.com/ArturWD/XsollaSS"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
         </div>
     </footer>
 );
