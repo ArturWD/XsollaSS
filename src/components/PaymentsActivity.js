@@ -13,7 +13,6 @@ class PaymentsActivity extends React.Component{
         try{
             var myChart = new Chart(this.state.ctx, {
                 type: 'bar',
-                responsive: true,
                 data: {
                     labels: data.labels,
                     datasets: [{
@@ -24,6 +23,7 @@ class PaymentsActivity extends React.Component{
                     }]
                 },
                 options: {
+                    responsive: true,
                     scales: {
                         xAxes: [{
                             scaleLabel: {

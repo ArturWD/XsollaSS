@@ -23,6 +23,7 @@ class RateByUsage extends React.Component{
                     }]
                 },
                 options: {
+                    responsive: true,
                     scales: {
                         xAxes: [{
                             scaleLabel: {

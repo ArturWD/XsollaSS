@@ -13,7 +13,6 @@ class RateBySpending extends React.Component{
         try{
             var myChart = new Chart(this.state.ctx, {
                 type: 'horizontalBar',
-                responsive: true,
                 data: {
                     labels: data.labels,
                     datasets: [{
@@ -24,6 +23,7 @@ class RateBySpending extends React.Component{
                     }]
                 },
                 options: {
+                    responsive: true,
                     scales: {
                         xAxes: [{
                             scaleLabel: {
